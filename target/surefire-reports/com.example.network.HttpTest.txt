@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.example.network.HttpTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.077 sec <<< FAILURE!
+shouldReturnCorrectResponse(com.example.network.HttpTest)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "It's ok h"
+     got: "It's ok"
+
+	at org.junit.Assert.assertThat(Assert.java:778)
+	at org.junit.Assert.assertThat(Assert.java:736)
+	at com.example.network.HttpTest.shouldReturnCorrectResponse(HttpTest.java:59)
+
